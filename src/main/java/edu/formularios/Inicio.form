@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="edu.formularios.Inicio">
+  <grid id="27dc6" binding="panelinicio" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="675" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1395377"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="cd1c5" class="javax.swing.JLabel" binding="lbl1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-16645630"/>
+          <enabled value="true"/>
+          <font name="Felix Titling" size="36"/>
+          <foreground color="-16645630"/>
+          <horizontalAlignment value="0"/>
+          <text value="PIZZERIA LIMA"/>
+        </properties>
+      </component>
+      <component id="6263" class="javax.swing.JButton" binding="botoninicio">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-3490133"/>
+          <font name="Arial Black" style="1"/>
+          <foreground color="-16645630"/>
+          <text value="Presiona para iniciar tu pedido!!"/>
+        </properties>
+      </component>
+      <component id="870a1" class="javax.swing.JLabel">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-16645630"/>
+          <enabled value="true"/>
+          <font name="Bodoni MT Condensed" size="24" style="2"/>
+          <foreground color="-16645630"/>
+          <horizontalAlignment value="0"/>
+          <text value="&quot;Tradición y sabor desde siempre, en Pizzeria Lima.&quot; "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
